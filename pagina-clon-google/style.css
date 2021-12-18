@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    font-size: 1.6rem;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-end ;
+}
+
+.header-container li{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+li img{
+    width: 35px;
+    height: 35px;
+    margin: auto;
+}
+
